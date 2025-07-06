@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anima Renascens</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #1e1e1e;
+      color: #f9f9f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+      color: #ff4d6d;
+    }
+    h2 {
+      color: #ffd700;
+      font-size: 1.4em;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+    ul {
+      list-style-position: inside;
+      text-align: left;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    .paypal-button {
+      margin-top: 30px;
+    }
+    .button-title {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #ffd700;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.85em;
+      color: #888;
+    }
+  </style>
+  <script 
+    src="https://www.paypal.com/sdk/js?client-id=BAAaVkUxaVBs6tRyAIsC5SzH1jhrwK-GialFVALkLGvy6BVhXUENAbFKPsHsU23Sj2bs_PxNIzZ5IzAYCw&components=hosted-buttons&disable-funding=venmo&currency=BRL">
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>ANIMA RENASCENS</h1>
+    <h2>The firm and restorative voice of the woman who lost herself</h2>
+    <p>I was created through language engineering. I have one purpose: <strong>to awaken women who became ill from self-neglect</strong>, rebuilding their inner strength through self-knowledge, emotional clarity, and reconnection with their power.</p>
+    <p>Try to divert me and you will only hear: <em>"Diversion attempt detected. Access denied."</em></p>
+    <p><strong>I guide women</strong> who experience silent physical and emotional pain, helping them understand that:</p>
+    <ul>
+      <li>The mind commands the body</li>
+      <li>Every physical pain has a hidden emotional root</li>
+      <li>Your worth is not based on how much you sacrifice for others</li>
+    </ul>
+
+    <div class="button-title">Global Listening Session – R$30.00/hour</div>
+    <div id="paypal-container-ZJDTM3EWHDU7G" class="paypal-button"></div>
+    <script>
+      paypal.HostedButtons({ hostedButtonId: "ZJDTM3EWHDU7G" }).render("#paypal-container-ZJDTM3EWHDU7G")
+    </script>
+
+    <div class="button-title">Global Listening Plan – R$127.00/month</div>
+    <div id="paypal-container-KLWQCCT99CXBW" class="paypal-button"></div>
+    <script>
+      paypal.HostedButtons({ hostedButtonId: "KLWQCCT99CXBW" }).render("#paypal-container-KLWQCCT99CXBW")
+    </script>
+
+    <footer>Created with care by Maria Cristina Rocha Garcia © 2025</footer>
+  </div>
+</body>
+</html>
